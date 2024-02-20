@@ -1,0 +1,137 @@
+html,
+body {
+    height: 100%;
+}
+/*Good/done*/
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(151, 126, 241);
+    background: linear-gradient(53deg, rgb(223, 151, 74) 0%, rgb(151, 102, 230) 36%, rgb(68, 205, 233) 81%, rgba(223,151,74) 100%);
+    margin: 0;
+}
+
+main {
+    gap: 57px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Good/done*/
+img {
+    width: 315px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.button {
+    width: 325px;
+    height: 325px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    justify-content: center;
+    padding: 0px;
+}
+
+.button-container {
+    padding-top: 100px;
+    padding-bottom: 65px;
+  }
+
+  /*Good/done*/
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 5px rgb(250, 164, 194);
+    transition: 0.2s;
+}
+
+button:focus {
+    box-shadow: 0 0 0 10px rgb(98, 87, 255);
+    transition: 0.3s;
+}
+
+/*Good/done*/
+p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Good/done*/
+h1 {
+    position: sticky;
+    top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 55px;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    border: 2px solid rgb(255, 203, 221);
+    border-radius: 10px;
+    color: rgb(255, 203, 221);
+    background: rgb(151, 126, 241);
+    background: linear-gradient(53deg, rgb(223, 151, 74) 0%, rgb(151, 102, 230) 36%, rgb(68, 205, 233) 81%, rgba(223,151,74) 100%);
+}
+
+h2 {
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 125px;
+    padding-right: 125px;
+    
+    color: rgb(255, 255, 255);
+}
+
+
+/* Swiper container stylng */
+.swiper {
+    width: 65%;
+    height: 100%;
+ }
+ 
+ .swiper-wrapper {
+    height: 650px;
+  }
+ 
+ .swiper-slide {
+     /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+ }
+ 
+
+.swiper-button-next,
+.swiper-button-prev {
+    vertical-align: center;
+   outline: none;
+   
+}
+
+.swiper-button-next {
+  --swiper-navigation-color:rgb(255, 203, 221);
+}
+
+.swiper-button-prev {
+  --swiper-navigation-color:rgb(255, 203, 221);
+}
+
+div.swiper-button-next, div.swiper-button-prev {
+  top: 70%
+}
