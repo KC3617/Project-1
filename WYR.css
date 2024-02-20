@@ -50,6 +50,7 @@ button:hover {
 button:focus {
     box-shadow: 0 0 0 10px rgb(98, 87, 255);
     transition: 0.3s;
+    opacity: 90%;
 }
 
 /*Good/done*/
